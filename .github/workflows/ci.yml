@@ -143,18 +143,18 @@ jobs:
       fail-fast: false
       matrix:
         BRANCH:
-          - edge
+          # - edge
           - current
         RELEASE:
           # - focal # Ubuntu 20.04 LTS
-          - jammy # Ubuntu 22.04 LTS
+          # - jammy # Ubuntu 22.04 LTS
           # - buster # Debian 10
           - bullseye # Debian 11
-          - sid # Debian unstable
+          # - sid # Debian unstable
         TYPE:
-          - minimal
+          # - minimal
           - cli
-          - desktop
+          # - desktop
         include:
           - TYPE: desktop
             DESKTOP_ENVIRONMENT: xfce
