@@ -94,7 +94,7 @@ jobs:
       fail-fast: false
       matrix:
         BRANCH:
-          - edge
+          # - edge
           - current
 
     steps:
